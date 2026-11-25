@@ -1,3 +1,15 @@
-Screenshots used by the main README. Expected file names:
-home.png, library.png, player.png, lyrics.png, queue.png, playlists.png, stats.png, recap.png, settings.png
-(portrait phone screenshots, ideally 1080 px wide).
+# Screenshots
+
+Screenshots shown in the main README, taken on a Galaxy S25 FE (1080 × 2340, dark mode).
+
+| File | Screen |
+|---|---|
+| home.png | Home |
+| player.png | Now playing |
+| lyrics.png | Synced lyrics |
+| library.png | Library (albums) |
+| queue.png | Queue |
+| playlists.png | Playlists & mixes |
+| stats.png | Stats |
+| recap.png | Recap story |
+| settings.png | Settings |

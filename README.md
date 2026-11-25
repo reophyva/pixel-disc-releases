@@ -77,24 +77,21 @@ listening stats, all in a clean, modern design.
 
 ## 📸 Screenshots
 
-<!-- Add images to the screenshots/ folder and replace each placeholder with:
-     <img src="screenshots/home.png" width="240" alt="Home"> -->
-
 <table>
   <tr>
-    <td align="center" width="33%"><b>Home</b><br><sub>Screenshot coming soon</sub></td>
-    <td align="center" width="33%"><b>Now playing</b><br><sub>Screenshot coming soon</sub></td>
-    <td align="center" width="33%"><b>Synced lyrics</b><br><sub>Screenshot coming soon</sub></td>
+    <td align="center" width="33%"><img src="screenshots/home.png" width="240" alt="Home"><br><b>Home</b></td>
+    <td align="center" width="33%"><img src="screenshots/player.png" width="240" alt="Now playing"><br><b>Now playing</b></td>
+    <td align="center" width="33%"><img src="screenshots/lyrics.png" width="240" alt="Synced lyrics"><br><b>Synced lyrics</b></td>
   </tr>
   <tr>
-    <td align="center"><b>Library</b><br><sub>Screenshot coming soon</sub></td>
-    <td align="center"><b>Queue</b><br><sub>Screenshot coming soon</sub></td>
-    <td align="center"><b>Playlists & mixes</b><br><sub>Screenshot coming soon</sub></td>
+    <td align="center" width="33%"><img src="screenshots/library.png" width="240" alt="Library"><br><b>Library</b></td>
+    <td align="center" width="33%"><img src="screenshots/queue.png" width="240" alt="Queue"><br><b>Queue</b></td>
+    <td align="center" width="33%"><img src="screenshots/playlists.png" width="240" alt="Playlists & mixes"><br><b>Playlists & mixes</b></td>
   </tr>
   <tr>
-    <td align="center"><b>Stats</b><br><sub>Screenshot coming soon</sub></td>
-    <td align="center"><b>Recap</b><br><sub>Screenshot coming soon</sub></td>
-    <td align="center"><b>Settings</b><br><sub>Screenshot coming soon</sub></td>
+    <td align="center" width="33%"><img src="screenshots/stats.png" width="240" alt="Stats"><br><b>Stats</b></td>
+    <td align="center" width="33%"><img src="screenshots/recap.png" width="240" alt="Recap"><br><b>Recap</b></td>
+    <td align="center" width="33%"><img src="screenshots/settings.png" width="240" alt="Settings"><br><b>Settings</b></td>
   </tr>
 </table>
 
