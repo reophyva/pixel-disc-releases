@@ -1,6 +1,6 @@
 # Pixel Disc – Privacy Policy
 
-_Last updated: 24 November 2026_
+_Last updated: 25 November 2026_
 
 Pixel Disc is a music player for Android that plays the music stored on your own device.
 It is made by ReOpHyVa. This page explains what data the app uses and when anything leaves
@@ -10,10 +10,12 @@ your phone.
 
 - Your music, playlists, favourites, play counts and listening history stay **on your device**.
 - Pixel Disc has **no ads, no analytics, no tracking** and no user accounts.
-- Only two optional features ever send anything over the internet, and both are **off unless
-  you turn them on**:
+- Only two optional features ever send anything about your music over the internet, and both
+  are **off unless you turn them on**:
   1. **Artist photos & bios** (sends artist names to Wikipedia)
   2. **Claude for AI Mix** (sends your request and a song list to Anthropic, using your own key)
+- To offer updates, the app checks GitHub **at most once a day** for a newer version. This sends nothing
+  about you or your music, and you can turn it off.
 
 ## What stays on your device
 
@@ -62,6 +64,20 @@ and is excluded from Android's automatic Google backup.
 
 If you turn off **AI features** entirely, the app makes no AI requests at all.
 
+### Update checks (GitHub)
+
+On by default; you can turn it off in **Settings → About → Check for updates automatically**.
+
+At most once a day when you open the app, and whenever you tap **Check now**, Pixel Disc downloads a small file
+(`version.json`) from the public Pixel Disc releases page on GitHub to see whether a newer
+version exists. If you choose to update, the new app file is downloaded from GitHub too.
+No information about you, your device or your music is sent; like any website, GitHub can see
+your device's **IP address** and the app's name and version. See the
+[GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+
+Updates are installed only when you agree, and only after the app has checked that the file is
+genuine (its checksum, and that it's signed by the Pixel Disc developer).
+
 ## Backups
 
 - **Pixel Disc backups** (Settings → General → Backup & restore) are saved where you choose:
@@ -75,7 +91,8 @@ If you turn off **AI features** entirely, the app makes no AI requests at all.
 
 - **Music and audio:** to find and play the music on your device.
 - **Notifications:** to show playback controls in the notification shade and on the lock screen.
-- **Internet:** used only by the two optional features above.
+- **Internet:** used only for the optional features above and for update checks.
+- **Install apps:** used only to install a Pixel Disc update you've agreed to.
 
 ## Children
 
