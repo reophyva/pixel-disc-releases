@@ -1,0 +1,92 @@
+# Pixel Disc – Privacy Policy
+
+_Last updated: 24 November 2026_
+
+Pixel Disc is a music player for Android that plays the music stored on your own device.
+It is made by ReOpHyVa. This page explains what data the app uses and when anything leaves
+your phone.
+
+## The short version
+
+- Your music, playlists, favourites, play counts and listening history stay **on your device**.
+- Pixel Disc has **no ads, no analytics, no tracking** and no user accounts.
+- Only two optional features ever send anything over the internet, and both are **off unless
+  you turn them on**:
+  1. **Artist photos & bios** (sends artist names to Wikipedia)
+  2. **Claude for AI Mix** (sends your request and a song list to Anthropic, using your own key)
+
+## What stays on your device
+
+- **Your music library:** the app reads audio files on your device to build your library. The
+  files are never uploaded.
+- **Lyrics:** lyrics are read **only from your own files**: lyrics embedded in the song file,
+  a `.lrc` file with the same name next to the song, or a `.lrc` file you pick yourself.
+  Pixel Disc never looks up lyrics online.
+- **Playlists, favourites, play counts, listening history and settings** are stored in the
+  app's private storage.
+- **Diagnostics log:** errors and crashes are recorded on your device only. Nothing is sent
+  anywhere unless you choose to copy or share the log yourself.
+
+## Optional features that use the internet
+
+### Artist photos & bios (Wikipedia)
+
+Off by default. You can turn it on during setup or in **Settings → Library**.
+
+When it's on, Pixel Disc sends the **names of artists in your library** to Wikipedia (run by the
+Wikimedia Foundation) to find a short biography and a freely licensed photo. The results are
+saved on your device and credited to their authors. No other information about you or your
+music is sent.
+
+Like any website, Wikipedia can see your device's **IP address** and the app's name and version
+when these requests are made. See the
+[Wikimedia Foundation Privacy Policy](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy).
+
+### Claude for AI Mix (Anthropic)
+
+AI Mix works fully on your device by default. Only if you **add your own Anthropic API key**
+and turn on **Use Claude for AI Mix** (Settings → General → AI features), then each time you
+create an AI mix Pixel Disc sends to Anthropic:
+
+- the text of your request (for example "chill evening, 1 hour"), and
+- a list of up to 700 songs from your library: title, artist, genre, year, length, whether the
+  song is hi-res, and whether it's one of your favourites.
+
+This is sent directly from your device to Anthropic's API using **your** key; it does not pass
+through any server of ours. Anthropic can see your device's **IP address**. Your use of the API
+is covered by your agreement with Anthropic and the
+[Anthropic Privacy Policy](https://www.anthropic.com/legal/privacy).
+
+Your API key is stored only on your device. It is never included in Pixel Disc's backup files
+and is excluded from Android's automatic Google backup.
+
+If you turn off **AI features** entirely, the app makes no AI requests at all.
+
+## Backups
+
+- **Pixel Disc backups** (Settings → General → Backup & restore) are saved where you choose:
+  the app's own storage or a folder you pick. They contain playlists, favourites, play counts,
+  listening history and settings, never your API key. Pixel Disc does not upload them anywhere.
+- **Android's own backup:** if you have Google backup turned on for your phone, Android may
+  back up the app's settings and data to your Google account, as it does for most apps. Your
+  API key is excluded.
+
+## Permissions
+
+- **Music and audio:** to find and play the music on your device.
+- **Notifications:** to show playback controls in the notification shade and on the lock screen.
+- **Internet:** used only by the two optional features above.
+
+## Children
+
+Pixel Disc is not directed at children and does not knowingly collect any personal information
+from anyone.
+
+## Changes
+
+If this policy changes, the new version will be published at this address with a new
+"Last updated" date.
+
+## Contact
+
+Questions or feedback: **pixeldisc.support@gmail.com**
