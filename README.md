@@ -62,7 +62,7 @@ listening stats, all in a clean, modern design.
 
 ### 🤖 AI playlist maker (optional)
 - Describe a mix — “chill evening, 1 hour” — and Pixel Disc builds it from your library, **on your device**.
-- Optionally use Claude with **your own** Anthropic API key for smarter mixes. Turn AI off completely if you prefer.
+- Optionally use Claude with **your own** Anthropic API key for smarter mixes. The key is stored **encrypted** on your phone and can be removed anytime. Turn AI off completely if you prefer.
 
 ### 🌐 Artist photos & bios (optional)
 - A photo and short biography from Wikipedia, credited to their authors. Off by default.
