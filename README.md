@@ -124,6 +124,27 @@ Each release lists the SHA-256 checksum of the APK (also inside `version.json`).
 
 The result must match the checksum on the release page exactly.
 
+### Signing certificate
+
+The checksum proves the file matches the release page. The **signing certificate** proves the app
+was made by the Pixel Disc developer, even if a download page were tampered with. Every official
+Pixel Disc APK is signed with this certificate:
+
+```
+SHA-256: c5:5d:05:db:c0:04:71:c6:29:1f:10:98:61:99:5d:8b:d6:12:76:c1:2d:b1:62:8d:72:07:96:e9:1a:d2:b1:55
+```
+
+To check it, use `apksigner` from the Android SDK build-tools:
+
+```
+apksigner verify --print-certs PixelDisc-vX.Y.Z.apk
+```
+
+The line `Signer #1 certificate SHA-256 digest:` must show
+`c55d05dbc00471c6291f109861995d8bd61276c12db1628d720796e91ad2b155`. If it shows anything else,
+**don't install it**. The app's built-in updater checks this automatically, and Android itself
+refuses to update Pixel Disc with an APK signed by a different certificate.
+
 ## 🛡️ Privacy
 
 - **No ads, no analytics, no tracking, no account.** Your music, playlists and listening history stay on your device.
